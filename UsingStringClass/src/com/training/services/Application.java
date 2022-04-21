@@ -4,11 +4,15 @@ public class Application {
 
 	public static void main(String[] args) {
 		StringService service = new StringService();
+		String city="CHENNAI";
+		System.out.println(String.format("%s", city));
+		System.out.println(String.format("%3$.4f %2$.3f %1$.2f", 100.456,200.4567,300.56789));
 	
 	   int key=14;
 	   switch (key) {
 	   case 1:
 		  service.stringEquals("ram","ram"); 
+		  
 		  break;
 	   case 2:
 		   service.stringObjectEquals();
