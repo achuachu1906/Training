@@ -26,7 +26,7 @@ public class Book implements Comparable<Book> , Serializable {
 
 	public Book() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 
 

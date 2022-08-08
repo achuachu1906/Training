@@ -6,7 +6,7 @@ public class Student implements Comparable<Student> {
 	private double markScored;
 	public Student() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Student(int rollNumber, String firstName, double markScored) {
 		super();
