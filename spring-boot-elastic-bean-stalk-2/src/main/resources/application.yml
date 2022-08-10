@@ -1,0 +1,11 @@
+server:
+  port: 5000
+  
+spring:
+  datasource:
+    url: jdbc:archu-database.cyp367l1ocb6.ap-south-1.rds.amazonaws.com:5432
+    username: postgres
+    password: postgres
+  jpa:  
+    hibernate:
+      ddl-auto: auto 
