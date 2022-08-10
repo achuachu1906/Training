@@ -3,9 +3,9 @@ server:
   
 spring:
   datasource:
-    url: jdbc:archu-database.cyp367l1ocb6.ap-south-1.rds.amazonaws.com:5432
+    url: jdbc:postgresql://testdba.cyp367l1ocb6.ap-south-1.rds.amazonaws.com:5432/test
     username: postgres
     password: postgres
   jpa:  
     hibernate:
-      ddl-auto: auto 
+      ddl-auto: create
